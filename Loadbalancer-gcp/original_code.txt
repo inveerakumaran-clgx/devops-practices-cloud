@@ -1,0 +1,82 @@
+
+resource "google_compute_instance" "instance5" {
+  name         = "instance1"
+  machine_type = var.test2
+
+  boot_disk {
+    initialize_params {
+      image = "ubuntu-minimal-2004-focal-v20221018"
+    }
+  }
+
+  network_interface {
+   
+    network = google_compute_network.vpc_network.id
+	subnetwork = google_compute_subnetwork.subnet1.id
+    access_config {
+    }
+  }
+
+}
+
+resource "google_compute_network" "vpc_network" {
+  name                    = "vpc-network"
+  auto_create_subnetworks = false
+}
+
+resource "google_compute_subnetwork" "subnet1" {
+  name          = "subnet1"
+  ip_cidr_range = "10.0.1.0/24"
+  region        = "us-central1"
+  network       = google_compute_network.vpc_network.id
+}
+
+
+
+...................................................................................
+
+
+# module "managed-instance-group" {
+#   source  = "GoogleCloudPlatform/managed-instance-group/google"
+#   version = "1.1.15"
+#   project_id = "protean-horizon-357409"
+#   region            = "us-central1"
+#   zone              = "us-central1-c"
+#   name              = "group1"
+#   size              = 2
+#   instance_template = module.vm_instance_template.self_link
+# }
+
+....................................................................................
+
+  # access_config = [{
+  #   nat_ip       = var.nat_ip
+  #   network_tier = var.network_tier
+  # }, ]
+
+.....................................................................................
+
+# module "vm_mig" {
+#   source  = "terraform-google-modules/vm/google//modules/mig"
+#   version = "8.0.0"
+#   instance_template = module.vm_instance_template.self_link
+#   region = "us.central1"
+
+#   health_check = {
+#     type                = "http"
+#     initial_delay_sec   = 30
+#     check_interval_sec  = 30
+#     healthy_threshold   = 1
+#     timeout_sec         = 10
+#     unhealthy_threshold = 5
+#     response            = ""
+#     proxy_header        = "NONE"
+#     port                = 80
+#     request             = ""
+#     request_path        = "/"
+#     host                = ""
+#     enable_logging      = false
+#   }
+# }
+
+............................................................................................

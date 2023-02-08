@@ -1,0 +1,9 @@
+---
+    - import_playbook: chrome_windows.yml
+    - import_playbook: notepad.yml
+    - import_playbook: php.yml
+    - import_playbook: user.yml
+    - import_playbook: xampp.yml
+    - import_playbook: apacheplaybook.yml
+    #- import_playbook: chrome_linux.yml
+    - import_playbook: 

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "norse-decoder-375521",
+  "private_key_id": "f9ee7991010ec078c58fb7b49872a7946d85a91c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC0Z6p5K2L/hOLZ\nTL+4w8+nqAl7EDExErNeF2krX6GdjkD3y8vw2zVlZa4aNSZCzilBYmy1dGd756Vv\nnD4xhSFQ38rcA9mxcW5EUgsXsdqbaD04Qhla/p57pxxDI/9KF0UUI2a+7zxSypBF\n9Du3bbt1vuHSx4BU6SQwf/pP432ZMplekMQYjf4MKHcINZUnHfXqtrGVQ9EjY6aA\nq0xbb2c7ssZ6swhFrhYbYXMMi48u4fOeB5hHfbNoUUElVQYgp26evmzGYOguDhOy\neUc0lerY4f9j7aVuTmHLeG4BbFAMbK8+/5ZZLZeolLrdfNZioKbnmvQ6Abw3yw6Q\nUwRfbEa1AgMBAAECggEAFuyIW0LR3t28NLgdsaUCJVADOmXNlmqFq9pmNQp/HyX1\nJ/e318iHIbYYuEBSNxF66RHQdgNPZg2CtmrAdWrxF5WEcc40cqmTBS/2tGFXgcFu\nbBBsJ+WsblKHExoHJdtMnhk8hF0iiXOvfxAgqXeSZ00k5XOP4VpJzLbqcA3chyOR\n/A/k6aU0BD0ogsTRm7mn/PFFghwI4GEcsCdap37zMBYR5KfDG8F6dprZ9g6DEse5\nwdJaubFH66UJ4b6+9VXhJWYHBFFSImuQHhqfskPsbJIOQn01OQlTt71iRwQl0y2P\nctTGx9HIldc+CjpRYIKyfVDWia1hOpZMFc0qSJd0OQKBgQDblywVWALYwne27cFD\nhy0JZMIz0CUt1sqSuCyv9iWVrcaFTavr3+ZejkjGwb3QPt87PUnq54MVEeScpcV6\nFWw0Xwi2G6do/2vhG/OpKsByLA73j7pPixiqYPpLN6qQNUDDfip+eRQVZGdA6VEb\n5lpYfPqzdbs0jxpb4rFQABE3nQKBgQDSUTUFJbj/eowXncqG5ZlOgYFK3AsMgvST\nGEnGE6s62PXejZouY1F3cGfdz3kmwzpORng7mEe6Uk5wajz6rzjYgCby+h3/OYZq\nJX8pBxoaBG2Po7VO0zcrOLCYltJsYKG1Ea5ReP5kEUq415/2js8WKyL3bUZDie73\nJl9+kYw7+QKBgQC3zyC9dQBdBNtEqlud9ObD+C1/RXn5ltPWYIg3emkXk3CbYNrK\nBI9HEv7kMIR8bkRZyAG5ubTFzEZ6wWA9wvTiGbKnDRrjDvr0YXtiXUDd0PduTkb8\nEkjBRY/9qkkBkTH28gML/rnK9lJfyW11VyrE60jHM4NSiX7c7zLQ7l17GQKBgQCl\nSIySbwLkRDq0lJ0FRosk10H0wtksC/6JWx0fPXXj2X3gWQhCTGtJolz+RH7Bp8u6\nmEcFDrfQBb7/OX6SxAG4o334lffdDChGYxF7/MjWiYRQzic+u18v6G1gfacA5TAw\nTKTiAmRp3+0JNuvPqIu2sE/ag1Yk3dGfCdkibt/2gQKBgQDTFmzyY0QuKwItAkTe\nG9WJbNgqI/8aJQBRxcVfYJBckrRUgWvmsVk8d5GNHXcFg1vT6Rf1r5hOwme5awHb\naDBB8tDEoy3pfMANrdCO8vIcWm5QrBkupPqvnO66HIxZ0gJA870j2jEPBJApnVl8\nicnRii2iiAMOMvavCap4QtHTNw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcpproject@norse-decoder-375521.iam.gserviceaccount.com",
+  "client_id": "102102172215226356705",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcpproject%40norse-decoder-375521.iam.gserviceaccount.com"
+}

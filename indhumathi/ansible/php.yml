@@ -1,0 +1,16 @@
+---
+- hosts: all
+  tasks:
+    - name: yum update
+      action: yum name=* state=latest
+    - name: yum install epel
+      yum: name=epel-release.noarch state=latest
+    - name: download remi repo rpm
+      get_url: url=http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+        dest=/root/
+    - name: install remi repo rpm
+      yum: name=/root/remi-release-7.rpm state=present
+    - name: install php
+      yum: enablerepo=remi,remi-php56
+        name=php-mssql,php-pear,php,php-pdo,php-pecl-redis,php-xml,php-pecl-zip,php-pecl-jsonc,php-pecl-igbinary,httpd,httpd-tools,php-mbstring
+        state=latest

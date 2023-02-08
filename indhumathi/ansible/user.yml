@@ -1,0 +1,10 @@
+---
+- hosts: windows
+  tasks:
+    - name: create local user
+      win_user:
+        name: ansibleuser
+        password: password
+        state: present
+        groups: 
+          -Users

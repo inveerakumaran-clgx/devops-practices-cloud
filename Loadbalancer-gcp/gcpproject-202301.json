@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "protean-horizon-357409",
+  "private_key_id": "5c8d2dbed393b1cb4069023d4543835602735cd8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCaKEK6BoSDbiwI\nR4GWERt/0Xt1Jjm1HqflMTKu/FRAEgIrX8R+7QlrDVvDEjIIqyvPK8lQzCx6IZPe\ng15MMTzJAIV87lniSySY5ESmG7w0S3/9tdLi8B6Dr5vc50+PMYTBOvytvjtETUdS\nH3pjb2HjVvnaT7z+AS0nugCYllBGZZjiDhS+slgjJr4+OZ67cfUBxwdtwEKLQ+oj\neHDx1KQou0yGe8kKC6qFB0Pe1/Hk76hRwW4/Vg6puPgjutj3+S1irXqx8pCWsZhL\n4dgmc3Ktf1je8H0ikQLZCMcFC07tNE35mVWaIXqNcV/BqzIq4Ei6VNm7F/jFJ2a8\n+8kp9P33AgMBAAECggEAH0Yer12mIYHG1hEnpXmoAgjOCoisOWXUOud9uElBkFP2\n87S0iOluuTSXEp6M3vxW4WspJsadGVPZi1FMXpm4krCT5DH4szN6Y7gfgzFqP5O3\njhGGjHqZPi7wqGKW3d52Z7sfSuImZOdmmi7/pc+RZM0e2B7IISG89uvBtjL8ayNd\nwMHwRxs2kxXeOeuOLrikGHTHGsYTD0aaxAQxxXTCQsShar8j91rElsu232KAtEMZ\nBF3TB3j9uHhuTTRrBAK9mx4Joabaz5v/2mb2dFJDIsB9A+7ppyu8R022w05Rt+zh\nGNN4fkAKN7neWbfSQTQLmZpWlpi3o2+6zX+T+BAs+QKBgQDJ9ijiT3LjCgeP0eqA\nkSOmZVo2qmnO57K5AzeBVoiB2N1JY0avmRVAdFB/IlDUfjKZBTjHT6fMsMhgMpvX\n6c2FUq+rdBClxIBxPjT0J74AVx8riqPB5F6T5pO7CMHa5VXimHOIlEDSFS9Gkz5Q\nOPxwfkUVDJBLYoL/kCTPgDyArwKBgQDDZ6GrmmXPJXSbsAWtveLtcM5eL/WTQgeW\nfVw22Iu6WJd4JnrHHj/wcTFtSiNukGtCvQg02Mla2aN0R5lc8xCQHz97eIXStJAR\nqdWAWzuVuiacNWg0xFigPPuAKuab7mcWoskQfKiln+RnYePAaZceZUl2DA2x1Ia6\nHqbArRjZOQKBgDO6ewpMMy732Kv7pka75heuigbKa0N1kQ9WRZc5JMmtVDCB3w8G\n9KyHnj6R+YYTtL4A2mQigOYquYf6LnSFDAEEBr6xgboTtJpMxp9qtn270t4CKqN0\n7MyRGHGlcpGwf+kEB0OKRXgJuQwolqNRlUby8JrNlv/YAZmXv/Xt8JE9AoGAF9sS\nCMI7xbNb7hnqR5DUIIrSFvuh7o10IbJCTMvZGzHvpBKGkMKnqbIYB7CybLAi+C3d\nz53bz0ScyPhox8lA72dxN6C6LcQvhoiGcToyJxBn4FBA3ZhO/ZkUV0xlhQnw+fl7\ntJCTgkzn9Jsl0/rQITzaYBgOn/RDUnulfgZj7zkCgYB6haPizROlnFzg29SjOVdj\npEmLV6YdF5bHugioYVPr2Q7AUediuSll/ivptPIAA03iWL+aUTxe5Xv6YmwUaKMV\nfuuGm0VNN8Iet/zOQrO3Z4024iQCNM7E7UzHewXVqZOdZS2UfyIAq+TUOTy5CJIC\ng5XsG2rnWimydsj/siTIdQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcp202301@protean-horizon-357409.iam.gserviceaccount.com",
+  "client_id": "111336420877474547450",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcp202301%40protean-horizon-357409.iam.gserviceaccount.com"
+}

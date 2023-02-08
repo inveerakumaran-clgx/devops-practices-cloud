@@ -1,0 +1,10 @@
+---
+- name: NotePad++ installation on MMCS-WIN-01
+  hosts: windows
+  gather_facts: false
+  tasks:
+    - name: Install Notepad++ with Chocolatey module
+      win_chocolatey:
+        name: notepadplusplus
+        install_args: "/D=C:otepad++"
+        state: latest
